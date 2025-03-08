@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    printf("Desafio Super Trunfo!\n");
+    printf("NOVATO - Desafio Super Trunfo!\n");
     
     // Declaração das variáveis para armazenar os dados das cartas
     char estado1, estado2;
@@ -58,7 +58,7 @@ int main() {
     scanf(" %d", &pontosTuristicosCidade2);
     getchar();
 
-    // Exibição dos dados das cartas
+    // Exibição dos dados das Cartas
     printf("\nDados das Cartas:\n");
     printf("\nCarta 1:\n");
     printf("Estado: %c\n", estado1);
