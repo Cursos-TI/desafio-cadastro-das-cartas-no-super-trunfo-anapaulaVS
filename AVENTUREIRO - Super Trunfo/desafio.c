@@ -4,6 +4,7 @@ int main() {
     printf("DESAFIO SUPER TRUNFO - AVENTUREIRO!\n");
 
     // Declaração das variáveis para armazenar os dados das Cartas do Jogo
+
     char estado1, estado2;
     char codigoCidade1[5], codigoCidade2[5];
     char nomeCidade1[50], nomeCidade2[50];
@@ -15,6 +16,7 @@ int main() {
     float pibPerCapitaCidade1, pibPerCapitaCidade2;
 
     // Leitura dos dados da Carta 1
+
     printf("Digite o estado da Carta 1 (A-H): ");
     scanf(" %c", &estado1);
     printf("Digite o código da Carta 1 (%c01-%c04): ", estado1, estado1);
@@ -31,6 +33,7 @@ int main() {
     scanf(" %d", &pontosTuristicosCidade1);
 
     // Leitura dos dados da Carta 2
+
     printf("\nDigite o estado da Carta 2 (A-H): ");
     scanf(" %c", &estado2);
     printf("Digite o código da Carta 2 (%c01-%c04): ", estado2, estado2);
@@ -46,9 +49,16 @@ int main() {
     printf("Digite o número de pontos turísticos da Cidade da Carta 2: ");
     scanf(" %d", &pontosTuristicosCidade2);
 
-    // Cálculo 
+    // Cálculo da densidade populacional e PIB per Capita
 
-    // Exibição dos dados das cartas
+    densidadePopulacionalCidade1 = populacaoCidade1 / areaCidade1;
+    densidadePopulacionalCidade2 = populacaoCidade2 / areaCidade2;
+    pibPerCapitaCidade1 = (pibCidade1 * 1000000000) / populacaoCidade1;
+    pibPerCapitaCidade2 = (pibCidade2 * 1000000000) / populacaoCidade2;
+
+    // Exibição dos dados das Cartas
+    // Exibição dos dados da Carta 1
+
     printf("\nDados das Cartas:\n");
     printf("\nCarta 1:\n");
     printf("Estado: %c\n", estado1);
@@ -60,6 +70,8 @@ int main() {
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicosCidade1);
     printf("Densidade Populacional: %.2f hab/km²\n", densidadePopulacionalCidade1);
     printf("PIB per Capita: %.2f reais\n", pibPerCapitaCidade1);
+    
+    //Exibição dos dados da Carta 2
 
     printf("\nCarta 2:\n");
     printf("Estado: %c\n", estado2);
