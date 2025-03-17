@@ -11,6 +11,8 @@ int main() {
     float areaCidade1, areaCidade2;
     float pibCidade1, pibCidade2;
     int pontosTuristicosCidade1, pontosTuristicosCidade2;
+    float densidadePopulacionalCidade1, densidadePopulacionalCidade2;
+    float pibPerCapitaCidade1, pibPerCapitaCidade2;
 
     // Leitura dos dados da Carta 1
     printf("Digite o estado da Carta 1 (A-H): ");
