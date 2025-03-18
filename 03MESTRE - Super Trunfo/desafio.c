@@ -79,6 +79,7 @@ int main() {
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicosCidade1);
     printf("Densidade Populacional: %.2f hab/km²\n", densidadePopulacionalCidade1);
     printf("PIB per Capita: %.2f reais\n", pibPerCapitaCidade1);
+    printf("Super Poder: %.2f\n", superPoderCidade1);
     
     //Exibição dos dados da Carta 2
 
