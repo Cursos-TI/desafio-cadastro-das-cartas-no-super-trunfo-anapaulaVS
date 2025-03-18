@@ -87,12 +87,14 @@ int main() {
     printf("Estado: %c\n", estado2);
     printf("Código: %s\n", codigoCidade2);
     printf("Nome da Cidade: %s\n", nomeCidade2);
-    printf("População: %d habitantes\n", populacaoCidade2);
+    printf("População: %lu habitantes\n", populacaoCidade2);
     printf("Área: %.2f km²\n", areaCidade2);
     printf("PIB: %.2f bilhões de reais\n", pibCidade2);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicosCidade2);
     printf("Densidade Populacional: %.2f hab/km²\n", densidadePopulacionalCidade2);
     printf("PIB per Capita: %.2f reais\n", pibPerCapitaCidade2);
+    printf("Super Poder: %.2f\n", superPoderCidade2);
+    
     
     return 0;
 
