@@ -25,13 +25,14 @@ int main() {
     printf("Digite o nome da Cidade da Carta 1: ");
     scanf(" %49s", nomeCidade1);
     printf("Digite a população da Cidade da Carta 1: ");
-    scanf(" %d", &populacaoCidade1);
+    scanf(" %lu", &populacaoCidade1);
     printf("Digite a área da Cidade da Carta 1 (em km²): ");
     scanf(" %f", &areaCidade1);
     printf("Digite o PIB da Cidade da Carta 1 (em bilhões de reais): ");
     scanf(" %f", &pibCidade1);
     printf("Digite o número de pontos turísticos da Cidade da Carta 1: ");
     scanf(" %d", &pontosTuristicosCidade1);
+
 
     // Leitura dos dados da Carta 2
 
