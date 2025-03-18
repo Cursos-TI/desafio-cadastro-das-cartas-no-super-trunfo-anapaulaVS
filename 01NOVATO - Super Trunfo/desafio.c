@@ -4,6 +4,7 @@ int main() {
     printf("DESAFIO SUPER TRUNFO - NOVATO!\n");
 
     // Declaração das variáveis para armazenar os dados das Cartas do Jogo
+
     char estado1, estado2;
     char codigoCidade1[5], codigoCidade2[5];
     char nomeCidade1[50], nomeCidade2[50];
@@ -13,6 +14,7 @@ int main() {
     int pontosTuristicosCidade1, pontosTuristicosCidade2;
 
     // Leitura dos dados da Carta 1
+
     printf("Digite o estado da Carta 1 (A-H): ");
     scanf(" %c", &estado1);
     printf("Digite o código da Carta 1 (%c01-%c04): ", estado1, estado1);
@@ -29,6 +31,7 @@ int main() {
     scanf(" %d", &pontosTuristicosCidade1);
 
     // Leitura dos dados da Carta 2
+
     printf("\nDigite o estado da Carta 2 (A-H): ");
     scanf(" %c", &estado2);
     printf("Digite o código da Carta 2 (%c01-%c04): ", estado2, estado2);
@@ -45,6 +48,7 @@ int main() {
     scanf(" %d", &pontosTuristicosCidade2);
 
     // Exibição dos dados da Carta 1
+
     printf("\nDados das Cartas:\n");
     printf("\nCarta 1:\n");
     printf("Estado: %c\n", estado1);
@@ -56,6 +60,7 @@ int main() {
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicosCidade1);
 
     // Exibição dos dados da Carta 2
+    
     printf("\nDados das Cartas:\n");
     printf("\nCarta 2:\n");
     printf("Estado: %c\n", estado2);
