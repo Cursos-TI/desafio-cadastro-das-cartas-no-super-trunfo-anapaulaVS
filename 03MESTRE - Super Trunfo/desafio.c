@@ -42,8 +42,9 @@ int main() {
     scanf(" %s", codigoCidade2);
     printf("Digite o nome da Cidade da Carta 2: ");
     scanf(" %49s", nomeCidade2);
+    getchar();
     printf("Digite a população da Cidade da Carta 2: ");
-    scanf(" %d", &populacaoCidade2);
+    scanf(" %lu", &populacaoCidade2);
     printf("Digite a área da Cidade da Carta 2 (em km²): ");
     scanf(" %f", &areaCidade2);
     printf("Digite o PIB da Cidade da Carta 2 (em bilhões de reais): ");
