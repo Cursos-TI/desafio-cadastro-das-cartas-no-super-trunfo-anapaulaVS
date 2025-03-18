@@ -59,6 +59,12 @@ int main() {
     pibPerCapitaCidade1 = (pibCidade1 * 1000000000) / populacaoCidade1;
     pibPerCapitaCidade2 = (pibCidade2 * 1000000000) / populacaoCidade2;
 
+    // Cálculo do Super Poder
+    superPoderCidade1 = populacaoCidade1 + areaCidade1 + pibCidade1 + 
+    pontosTuristicosCidade1 + pibPerCapitaCidade1 + (1 / densidadePopulacionalCidade1);
+    superPoderCidade2 = populacaoCidade2 + areaCidade2 + pibCidade2 + 
+    pontosTuristicosCidade2 + pibPerCapitaCidade2 + (1 / densidadePopulacionalCidade2);
+
     // Exibição dos dados das Cartas
     // Exibição dos dados da Carta 1
 
